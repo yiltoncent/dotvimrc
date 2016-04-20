@@ -21,6 +21,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-scripts/minibufexplorerpp'
 Plugin 'vim-scripts/winmanager'
 Plugin 'monokai'
+Plugin 'bling/vim-airline'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -57,7 +58,8 @@ let g:miniBufExplModSelTarget = 1
 let g:miniBufExplMoreThanOne=0  
 
 
-let g:NERDTree_title="[NERDTree]"  
+let g:NERDTree_title="[NERDTree]"
+set laststatus=2
 " let g:winManagerWindowLayout="NERDTree|Tagbar"  
   
 function! NERDTree_Start()  
