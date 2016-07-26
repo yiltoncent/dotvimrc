@@ -71,6 +71,7 @@ function! NERDTree_IsValid()
 endfunction  
 
 nmap nd :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>:!cscope -Rbq<CR>:NERDTreeToggle<CR>:TagbarToggle<CR>:cs add ./cscope.out<CR>
+nmap md :!cscope -Rbq<CR>:NERDTreeToggle<CR>:TagbarToggle<CR>:cs add ./cscope.out<CR>
 
 nmap <Leader>tb :TagbarToggle<CR>
 let g:tagbar_ctags_bin='/usr/bin/ctags'
