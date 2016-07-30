@@ -1,5 +1,5 @@
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>  
-
+syntax enable
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
